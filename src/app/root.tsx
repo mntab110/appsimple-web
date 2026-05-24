@@ -31,7 +31,9 @@ import { toPng } from 'html-to-image';
 import { useNavigate } from 'react-router';
 import { serializeError } from 'serialize-error';
 import { Toaster, toast } from 'sonner';
-import { useDevServerHeartbeat } from '../__create/useDevServerHeartbeat';
+if (import.meta.env.DEV) {
+  import("../__create/useDevServerHeartbeat");
+}
 import '../__create/design-mode';
 import type { Route } from './+types/root';
 
