@@ -107,7 +107,7 @@ export default function PrivacyPolicyPage() {
       </div>
 
       <footer className="mt-24 pt-12 border-t border-gray-100 flex justify-between items-center text-xs text-gray-400">
-        <p>© 2026 AppSimple. All rights reserved.</p>
+        <p>© 2026 AppSimple LLC. All rights reserved.</p>
         <a href="/" className="hover:text-black transition-colors">
           Home
         </a>
