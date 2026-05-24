@@ -5,9 +5,9 @@ import HomePage from "./app/page";
 import PrivacyPage from "./app/privacy/page";
 
 function App() {
-  const path = window.location.pathname;
+  const path = window.location.pathname.replace(/\/$/, '') || '/';
 
-  if (path === "/privacy") {
+  if (path === '/privacy') {
     return (
       <div className="min-h-screen flex flex-col">
         <PrivacyPage />
