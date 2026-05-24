@@ -34,7 +34,9 @@ import { Toaster, toast } from 'sonner';
 if (import.meta.env.DEV) {
   import("../__create/useDevServerHeartbeat");
 }
-import '../__create/design-mode';
+if (import.meta.env.DEV) {
+  import("../__create/design-mode");
+}
 import type { Route } from './+types/root';
 
 export const links = () => [];
