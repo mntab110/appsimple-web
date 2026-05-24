@@ -91,7 +91,7 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section id="about" className="pt-40 pb-24 md:pt-56 md:pb-32 px-6">
+      <section id="about" className="pt-20 pb-24 md:pt-24 md:pb-32 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="inline-block px-3 py-1 rounded-full bg-gray-100 text-[10px] font-bold uppercase tracking-widest text-gray-500 mb-6">
             Independent Software Studio
