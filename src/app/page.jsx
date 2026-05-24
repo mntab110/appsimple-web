@@ -271,7 +271,7 @@ export default function HomePage() {
           </div>
 
           <div className="text-sm text-gray-400">
-            © 2026 AppSimple. All rights reserved.
+            © 2026 AppSimple LLC. All rights reserved.
           </div>
 
           <div className="flex gap-8 text-sm font-medium text-gray-500">
