@@ -22,7 +22,7 @@ export default function HomePage() {
         "Beautiful shareable dining postcards",
       ],
       image:
-        "https://appsimple.com/forknotes-postcard.jpg",
+        "https://appsimple.com/forknotes-postcard",
       onboarding: [
         "https://dtvoeevhaseb5.cloudfront.net/user-uploads/9ce3c784-418f-4031-b5db-fbd8685310de.png",
         "https://dtvoeevhaseb5.cloudfront.net/user-uploads/5fad2583-ca51-4b6f-8cac-79a9131700c1.png",
