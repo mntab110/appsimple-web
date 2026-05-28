@@ -38,7 +38,7 @@ export default function HomePage() {
         "A modern online art experience created for the presentation and discovery of original artwork. Focused on simplicity, elegance, and visual presentation.",
       link: "https://aurea.art",
       image:
-        "https://dtvoeevhaseb5.cloudfront.net/user-uploads/ab8459b4-9541-445c-8363-ac256d1c4784.png",
+        "/images/aurea-art.png",
       type: "Web Experience",
     },
   ];
