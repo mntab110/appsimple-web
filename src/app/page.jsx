@@ -52,7 +52,7 @@ export default function HomePage() {
             <img
               src="/favicon.png"
               alt="AppSimple Logo"
-              className="h-8 w-auto object-contain"
+              className="h-11 w-auto object-contain"
             />
           </div>
           <div className="flex gap-8 text-sm font-medium text-gray-500">
@@ -91,12 +91,12 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section id="about" className="pt-14 pb-16 md:pt-16 md:pb-20 px-6">
+      <section id="about" className="pt-10 pb-10 md:pt-12 md:pb-14 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="inline-block px-3 py-1 rounded-full bg-gray-100 text-[10px] font-bold uppercase tracking-widest text-gray-500 mb-6">
             App Development Studio
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-8 leading-[1.18]">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-8 leading-[1.28]">
             Thoughtfully Designed Apps Built With Clarity And Purpose
           </h1>
           <p className="text-xl md:text-2xl text-gray-500 max-w-3xl leading-relaxed">
@@ -106,7 +106,7 @@ export default function HomePage() {
       </section>
 
       {/* Featured Studio Image */}
-      <section className="px-6 mb-32">
+      <section className="px-6 mb-20">
         <div className="max-w-6xl mx-auto rounded-3xl overflow-hidden shadow-2xl shadow-gray-200/50">
           <img
             src="https://appsimple.com/images/hero-laptop.jpg"
@@ -135,7 +135,7 @@ export default function HomePage() {
 
           <div className="grid gap-24 md:gap-32">
             {/* ForkNotes */}
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-14">
               <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
                 <div className="order-2 md:order-1">
                   <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">
@@ -148,19 +148,19 @@ export default function HomePage() {
                     users preserve, organize, and revisit their dining
                     experiences.
                   </p>
-                  <div className="space-y-4 mb-10">
+                  <div className="space-y-5 mb-12">
                     {projects[0].features.map((feature, i) => (
                       <div
                         key={i}
                         className="flex items-center gap-3 text-gray-600"
                       >
                         <div className="w-1.5 h-1.5 rounded-full bg-black" />
-                        <span className="text-sm font-medium">{feature}</span>
+                        <span className="text-sm font-medium leading-snug">{feature}</span>
                       </div>
                     ))}
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="bg-black text-white px-6 py-3 rounded-xl text-sm font-bold flex items-center gap-2 opacity-50 cursor-not-allowed">
+                    <div className="bg-black text-white px-7 py-3.5 rounded-xl text-sm font-bold flex items-center gap-2 opacity-50 cursor-not-allowed">
                       Coming Soon to iOS
                     </div>
                   </div>
