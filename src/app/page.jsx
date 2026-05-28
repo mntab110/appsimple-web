@@ -22,12 +22,12 @@ export default function HomePage() {
         "Beautiful shareable dining postcards",
       ],
       image:
-        "https://dtvoeevhaseb5.cloudfront.net/user-uploads/fbc8bd00-58a9-4c6e-9ef3-1ce6211a6d0f.png",
+        "https://appsimple.com/images/forknotes-postcard.jpg",
       onboarding: [
-        "https://dtvoeevhaseb5.cloudfront.net/user-uploads/9ce3c784-418f-4031-b5db-fbd8685310de.png",
-        "https://dtvoeevhaseb5.cloudfront.net/user-uploads/5fad2583-ca51-4b6f-8cac-79a9131700c1.png",
-        "https://dtvoeevhaseb5.cloudfront.net/user-uploads/37bd36fb-04ba-4ec7-a645-189b697858ba.png",
-        "https://dtvoeevhaseb5.cloudfront.net/user-uploads/02645123-5905-4903-b33e-6b0c362d256a.png",
+        "https://appsimple.com/images/forknotes-onboarding-1.png",
+        "https://appsimple.com/images/forknotes-onboarding-2.png",
+        "https://appsimple.com/images/forknotes-onboarding-3.png",
+        "https://appsimple.com/images/forknotes-onboarding-4.png",
       ],
       type: "Mobile App",
     },
