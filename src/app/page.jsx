@@ -52,7 +52,7 @@ export default function HomePage() {
             <img
               src="/favicon.png"
               alt="AppSimple Logo"
-              className="h-11 w-auto object-contain"
+              className="h-14 w-auto object-contain"
             />
           </div>
           <div className="flex gap-8 text-sm font-medium text-gray-500">
