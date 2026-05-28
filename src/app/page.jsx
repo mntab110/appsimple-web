@@ -91,17 +91,16 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section id="about" className="pt-20 pb-24 md:pt-24 md:pb-32 px-6">
+      <section id="about" className="pt-14 pb-16 md:pt-16 md:pb-20 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="inline-block px-3 py-1 rounded-full bg-gray-100 text-[10px] font-bold uppercase tracking-widest text-gray-500 mb-6">
             App Development Studio
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-8 leading-[1.1]">
-            Thoughtfully designed apps built with clarity and purpose.
+            Thoughtfully Designed Apps Built With Clarity And Purpose
           </h1>
           <p className="text-xl md:text-2xl text-gray-500 max-w-2xl leading-relaxed">
-            AppSimple is an independent app development studio currently
-            developing consumer-focused applications and digital experiences.
+            Thoughtful apps designed with simplicity, usability, and care.
           </p>
         </div>
       </section>
