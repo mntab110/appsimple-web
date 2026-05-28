@@ -27,7 +27,7 @@ export default function HomePage() {
         "https://appsimple.com/images/forknotes-onboarding-1.jpg",
         "https://appsimple.com/images/forknotes-onboarding-2.png",
         "https://appsimple.com/images/forknotes-onboarding-3.png",
-        "https://appsimple.com/images/forknotes-onboarding-3.png",
+        "https://appsimple.com/images/forknotes-onboarding-4.png",
       ],
       type: "Mobile App",
     },
