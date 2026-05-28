@@ -111,7 +111,7 @@ export default function HomePage() {
       <section className="px-6 mb-32">
         <div className="max-w-6xl mx-auto rounded-3xl overflow-hidden shadow-2xl shadow-gray-200/50">
           <img
-            src="https://dtvoeevhaseb5.cloudfront.net/user-uploads/45ef6e7d-68df-4509-b735-406bdb9a8f8f.jpg"
+            src="hero-laptop"
             alt="Studio Setup"
             className="w-full aspect-[21/9] object-cover"
           />
