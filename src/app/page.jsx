@@ -96,11 +96,11 @@ export default function HomePage() {
           <div className="inline-block px-3 py-1 rounded-full bg-gray-100 text-[10px] font-bold uppercase tracking-widest text-gray-500 mb-6">
             App Development Studio
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-8 leading-[1.1]">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-8 leading-[1.18]">
             Thoughtfully Designed Apps Built With Clarity And Purpose
           </h1>
-          <p className="text-xl md:text-2xl text-gray-500 max-w-2xl leading-relaxed">
-            Thoughtful apps designed with simplicity, usability, and care.
+          <p className="text-xl md:text-2xl text-gray-500 max-w-3xl leading-relaxed">
+            User-focused apps designed with simplicity, usability, and care
           </p>
         </div>
       </section>
