@@ -24,10 +24,10 @@ export default function HomePage() {
       image:
         "https://appsimple.com/images/forknotes-postcard.jpg",
       onboarding: [
-        "https://appsimple.com/images/forknotes-onboarding-1.jpg",
-        "https://appsimple.com/images/forknotes-onboarding-2.png",
-        "https://appsimple.com/images/forknotes-onboarding-3.png",
-        "https://appsimple.com/images/forknotes-onboarding-4.png",
+        "/images/forknotes-onboarding-1.jpg",
+        "/images/forknotes-onboarding-2.png",
+        "/images/forknotes-onboarding-3.png",
+        "/images/forknotes-onboarding-4.png",
       ],
       type: "Mobile App",
     },
