@@ -111,7 +111,7 @@ export default function HomePage() {
       <section className="px-6 mb-32">
         <div className="max-w-6xl mx-auto rounded-3xl overflow-hidden shadow-2xl shadow-gray-200/50">
           <img
-            src="https://appsimple.com/hero-laptop"
+            src="https://appsimple.com/hero-laptop.jpg"
             alt="AppSimple Studio"
             className="w-full aspect-[21/9] object-cover"
           />
