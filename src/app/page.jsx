@@ -50,7 +50,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img
-              src="/images/favicon.png"
+              src="/favicon.png"
               alt="AppSimple Logo"
               className="h-8 w-auto object-contain"
             />
