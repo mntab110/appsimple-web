@@ -264,7 +264,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2 grayscale opacity-60">
             <img
-              src="https://dtvoeevhaseb5.cloudfront.net/user-uploads/cc4a3341-9cae-43a6-9cf7-34622c1659df.png"
+              src="/favicon.png"
               alt="AppSimple Logo"
               className="h-6 w-auto object-contain"
             />
