@@ -27,7 +27,7 @@ export default function HomePage() {
         "/images/Onboarding_1.jpg",
         "/images/Onboarding_2.jpg",
         "/images/Onboarding_3.jpg",
-        "/images/Onboarding_4.jpg",
+        "/images/Onboarding_4.png",
       ],
       type: "Mobile App",
     },
