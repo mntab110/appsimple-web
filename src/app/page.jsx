@@ -22,7 +22,7 @@ export default function HomePage() {
         "Beautiful shareable dining postcards",
       ],
       image:
-        "/images/forksmart-postcard.png",
+        "/images/forksmart-postcard.jpg",
       onboarding: [
         "/images/Onboarding_1.jpg",
         "/images/Onboarding_2.jpg",
