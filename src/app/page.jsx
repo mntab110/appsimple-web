@@ -132,7 +132,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid gap-24 md:gap-32">
-            {/* ForkNotes */}
+            {/* ForkSmart */}
             <div className="flex flex-col gap-14">
               <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
                 <div className="order-2 md:order-1">
@@ -140,9 +140,9 @@ export default function HomePage() {
                     <Smartphone size={14} />
                     Mobile App — Upcoming
                   </div>
-                  <h3 className="text-4xl font-bold mb-6">ForkNotes</h3>
+                  <h3 className="text-4xl font-bold mb-6">ForkSmart</h3>
                   <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                    ForkNotes is an upcoming iOS application designed to help
+                    ForkSmart is an upcoming iOS application designed to help
                     users preserve, organize, and revisit their dining
                     experiences.
                   </p>
@@ -168,7 +168,7 @@ export default function HomePage() {
                   <div className="relative bg-white rounded-[2rem] shadow-xl border border-gray-100 overflow-hidden group">
                     <img
                       src={projects[0].image}
-                      alt="ForkNotes Postcard"
+                      alt="ForkSmart Postcard"
                       className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent pointer-events-none" />
@@ -185,7 +185,7 @@ export default function HomePage() {
                   >
                     <img
                       src={src}
-                      alt={`ForkNotes onboarding screen ${i + 1}`}
+                      alt={`ForkSmart onboarding screen ${i + 1}`}
                       className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                     />
                   </div>
