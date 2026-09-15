@@ -10,7 +10,7 @@ import {
 export default function HomePage() {
   const projects = [
     {
-      title: "ForkNotes",
+      title: "ForkSmart",
       status: "Currently in development for iOS",
       description:
         "An upcoming iOS application designed to help users preserve, organize, and revisit their dining experiences.",
@@ -22,7 +22,7 @@ export default function HomePage() {
         "Beautiful shareable dining postcards",
       ],
       image:
-        "https://appsimple.com/images/forknotes-postcard.jpg",
+        "https://appsimple.com/images/forksmart-postcard.png",
       onboarding: [
         "/images/forknotes-onboarding-1.png",
         "/images/forknotes-onboarding-2.png",
