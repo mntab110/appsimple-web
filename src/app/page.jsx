@@ -24,10 +24,10 @@ export default function HomePage() {
       image:
         "/images/forksmart-postcard.png",
       onboarding: [
-        "/images/forknotes-onboarding-1.png",
-        "/images/forknotes-onboarding-2.png",
-        "/images/forknotes-onboarding-3.png",
-        "/images/forknotes-onboarding-4.png",
+        "/images/Onboarding_1.jpg",
+        "/images/Onboarding_2.jpg",
+        "/images/Onboarding_3.jpg",
+        "/images/Onboarding_4.jpg",
       ],
       type: "Mobile App",
     },
