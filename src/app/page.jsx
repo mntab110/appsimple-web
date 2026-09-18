@@ -11,9 +11,10 @@ export default function HomePage() {
   const projects = [
     {
       title: "ForkSmart",
-      status: "Currently in development for iOS",
+      status: "Available on the App Store",
       description:
-        "An upcoming iOS application designed to help users preserve, organize, and revisit their dining experiences.",
+        "An iOS application designed to help users preserve, organize, and revisit their dining experiences.",
+      storeLink: "https://apps.apple.com/app/id6782392550",
       features: [
         "Receipt-based meal tracking",
         "Smart categorization",
@@ -138,11 +139,11 @@ export default function HomePage() {
                 <div className="order-2 md:order-1">
                   <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gray-400 mb-4">
                     <Smartphone size={14} />
-                    Mobile App — Upcoming
+                    Mobile App — Available for iPhone
                   </div>
                   <h3 className="text-4xl font-bold mb-6">ForkSmart</h3>
                   <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                    ForkSmart is an upcoming iOS application designed to help
+                    ForkSmart is an iOS application designed to help
                     users preserve, organize, and revisit their dining
                     experiences.
                   </p>
@@ -157,9 +158,25 @@ export default function HomePage() {
                       </div>
                     ))}
                   </div>
-                  <div className="flex items-center gap-4">
-                    <div className="bg-black text-white px-7 py-3.5 rounded-xl text-sm font-bold flex items-center gap-2 opacity-50 cursor-not-allowed">
-                      Coming Soon to iOS
+                  <div className="flex flex-wrap items-center gap-5">
+                    <a
+                      href={projects[0].storeLink}
+                      className="inline-flex items-center gap-2 bg-black text-white px-7 py-3.5 rounded-xl text-sm font-bold hover:bg-gray-800 transition-colors"
+                    >
+                      Download on the App Store
+                      <ExternalLink size={16} aria-hidden="true" />
+                    </a>
+                    <div className="flex items-center gap-3">
+                      <a href={projects[0].storeLink} aria-label="Open ForkSmart on the App Store">
+                        <img
+                          src="/images/forksmart-app-store-qr.svg"
+                          alt="QR code to download ForkSmart"
+                          width="120"
+                          height="120"
+                          className="rounded-xl border border-gray-200 bg-white p-2 shadow-sm"
+                        />
+                      </a>
+                      <span className="text-xs text-gray-500 max-w-24">Scan with your iPhone</span>
                     </div>
                   </div>
                 </div>
